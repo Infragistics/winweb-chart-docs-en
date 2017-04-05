@@ -1,5 +1,5 @@
 ﻿:name: Chart
-:parent1: link:http://www.infragistics.com/help/wpf/[WPF]
+:parent1: link:http://www.infragistics.com/help/winforms/[Windows Forms]
 :parent2: link:http://www.infragistics.com/help/aspnet/[ASP.NET]
 
 image:http://www.infragistics.com/media/441501/horz_logo.png[alt="Infragistics, Inc."]
@@ -20,7 +20,7 @@ The best way to find the file you are looking for is to navigate to a page on th
 == Shared Repositories
 The following repositories use this repository to make a final help set:
 
-- link:http://www.github.com/infragistics/wpf-docs-en[WPF]
+- link:http://www.github.com/infragistics/winforms-docs-en[Windows Forms]
 - link:http://www.github.com/infragistics/aspnet-docs-en[ASP.NET]
 
 == API Documentation

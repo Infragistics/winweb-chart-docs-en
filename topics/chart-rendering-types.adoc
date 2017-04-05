@@ -14,7 +14,7 @@
 
 = Rendering Types
 
-WebChart™ can be rendered in three ways, depending on the setting of the DeploymentScenario. pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.renderingtype.html[RenderingType]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.renderingtype.html[RenderingType]"]  property.
+WebChart™ can be rendered in three ways, depending on the setting of the DeploymentScenario. pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.renderingtype.html[RenderingType]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.renderingtype.html[RenderingType]"]  property.
 
 image::images/WebChart_RenderingTypes_01.png[Shows the Visual Studio properties window with the DeploymentScenario property expanded to show the RenderingType property.]
 

@@ -23,7 +23,7 @@ While the Chart control allows you to easily point the chart to your own custom 
 The following is a list of data requirements for 3D pie charts:
 
 * The data set contains one numeric column. A numeric column is any DataColumn containing only values that can be interpreted as numbers.
-* The column that you want to use for wedges in the chart must be specified by setting the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.piechartappearance~columnindex.html[ColumnIndex]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.piechartappearance~columnindex.html[ColumnIndex]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.piechartappearance~columnindex.html[ColumnIndex]"]  property to 0 (see the code below). To automatically search the data, set this property to -1. In this case, the first numeric column encountered will be used for the wedge values.
+* The column that you want to use for wedges in the chart must be specified by setting the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.piechartappearance~columnindex.html[ColumnIndex]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.piechartappearance~columnindex.html[ColumnIndex]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.piechartappearance~columnindex.html[ColumnIndex]"]  property to 0 (see the code below). To automatically search the data, set this property to -1. In this case, the first numeric column encountered will be used for the wedge values.
 
 [source]
 ----
@@ -54,7 +54,7 @@ UltraChart.PieChart3D.Labels.FormatString = "<ITEM_LABEL>: <DATA_VALUE:#> (<PERC
 ----
 * The data values do not need to be percentages, as the sum of the data values in the column is used to calculate the percentage applicable to each row.
 * Negative data values are treated as non-negative (by taking their absolute value) for this purpose.
-* You can include or exclude any column from the chart using the UltraChart.Data. pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.data.chartdatafilter~includecolumn.html[IncludeColumn]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.dataappearance~includecolumn.html[IncludeColumn]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.data.chartdatafilter~includecolumn.html[IncludeColumn]"]  method.
+* You can include or exclude any column from the chart using the UltraChart.Data. pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.data.chartdatafilter~includecolumn.html[IncludeColumn]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.dataappearance~includecolumn.html[IncludeColumn]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.data.chartdatafilter~includecolumn.html[IncludeColumn]"]  method.
 
 See below for an example data set, along with the rendered 3D pie chart.
 

@@ -33,13 +33,13 @@ Set up your parent WebChart™ in the Page_Load event. In this example, a zero-a
 To set up a DrillElement:
 
 [start=1]
-. Set  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~enabled.html[UltraChart.Drill.Enabled]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~enabled.html[UltraChart.Drill.Enabled]"]  to True.
+. Set  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~enabled.html[UltraChart.Drill.Enabled]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~enabled.html[UltraChart.Drill.Enabled]"]  to True.
 [start=2]
-. Set  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~drillelements.html[UltraChart.Drill.DrillElements]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~drillelements.html[UltraChart.Drill.DrillElements]"]  to a new DrillElement array that contains one new DrillElement.
+. Set  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~drillelements.html[UltraChart.Drill.DrillElements]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~drillelements.html[UltraChart.Drill.DrillElements]"]  to a new DrillElement array that contains one new DrillElement.
 [start=3]
-. Set the  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.drillelement~drilldown.html[DrillDown]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.drillelement~drilldown.html[DrillDown]"]  property of your DrillElement to a new object that implements IDrillDown.
+. Set the  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.drillelement~drilldown.html[DrillDown]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.drillelement~drilldown.html[DrillDown]"]  property of your DrillElement to a new object that implements IDrillDown.
 
-In the example code below, make a class called "MyDrillDown," which implements  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"] .
+In the example code below, make a class called "MyDrillDown," which implements  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"] .
 
 *In Visual Basic:*
 
@@ -96,7 +96,7 @@ private void Page_Load(object sender, System.EventArgs e)
 
 == Creating a Class that Implements IDrillDown
 
-For the DrillElement to work, the code requires a class with IDrillDown. IDrillDown contains only one method  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.idrilldown~drill.html[Drill]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~drillback.html[Drill]"] , which you will use later.
+For the DrillElement to work, the code requires a class with IDrillDown. IDrillDown contains only one method  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.idrilldown~drill.html[Drill]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~drillback.html[Drill]"] , which you will use later.
 
 But first, implement the constructor. The best practice here is to pass in a reference to your WebChart, as was done in the previous step.
 
@@ -118,7 +118,7 @@ Conditional logic can also be used here, such as determining the depth of the dr
 .Note
 [NOTE]
 ====
-The  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~depth.html[Drill.Depth]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~depth.html[Drill.Depth]"]  property is not implemented in WebChart, so you must use other means to determine this (you can pass your own depth value into the constructor, or through one of the arguments of Drill()).
+The  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~depth.html[Drill.Depth]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~depth.html[Drill.Depth]"]  property is not implemented in WebChart, so you must use other means to determine this (you can pass your own depth value into the constructor, or through one of the arguments of Drill()).
 ====
 
 *In Visual Basic:*
@@ -175,7 +175,7 @@ internal class MyDrillDown : IDrillDown
 
 == Implement the ChartDataClicked Event
 
-The UltraChart.ChartDataClicked event occurs when you click on the WebChart. In this event handler, you have access to all the information you need, such as the row and column (of the Parent) that are being Drilled into. This information is accessible through the  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.events.chartdataeventargs.html[ChartDataEventArgs ("e")]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.events.chartdataeventargs.html[ChartDataEventArgs("e")]"] .
+The UltraChart.ChartDataClicked event occurs when you click on the WebChart. In this event handler, you have access to all the information you need, such as the row and column (of the Parent) that are being Drilled into. This information is accessible through the  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.events.chartdataeventargs.html[ChartDataEventArgs ("e")]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.events.chartdataeventargs.html[ChartDataEventArgs("e")]"] .
 
 In drilldown scenario, you must call the DrillDown.Drill() method of your DrillElement (the one you set up in Page_Load). This is the same method that you implemented in your IDrillDown class. In the arguments for this method call, you pass the values that you will use to initialize your child chart.
 

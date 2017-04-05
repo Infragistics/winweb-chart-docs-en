@@ -14,7 +14,7 @@
 
 = Save a Chart Image
 
-This topic describes how to use the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.win.ultrawinchart.ultrachart~saveto.html[SaveTo]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~saveto.html[SaveTo]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~saveto.html[SaveTo]"]  method of the element to save an image of the chart in its current state.
+This topic describes how to use the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.win.ultrawinchart.ultrachart~saveto.html[SaveTo]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~saveto.html[SaveTo]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~saveto.html[SaveTo]"]  method of the element to save an image of the chart in its current state.
 
 [start=1]
 . The SaveTo method can be used to save the chart's image to a file or to a stream. To save to a file, a path and an image format needs to be specified. The following line of code saves the cart to a JPEG image file:

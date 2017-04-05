@@ -48,7 +48,7 @@ using Infragistics.UltraChart.Shared.Styles;
 ----
 
 [start=2]
-. Initialize the DrillElements property of WinChart's™  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance.html[DrillDownAppearance]"] .
+. Initialize the DrillElements property of WinChart's™  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance.html[DrillDownAppearance]"] .
 
 A WinChart is drillable when the developer assigns an array of DrillElement objects to the DrillElements property of a chart's DrillDownAppearance object (exposed using the property named DrillDown) at run time. This can be done as follows:
 
@@ -101,7 +101,7 @@ this.ultraChart1.Drill.DrillElements[0].DataSource = new double[]
 [start=4]
 . Implement IDrillDown to receive callbacks when drilling down (optional).
 
-When the drill down transitions from parent chart to child chart, it may be necessary to set other properties of the chart (for instance, the title appearing at the top of WinChart). Notification of these drill down transitions can be handled by any object that implements the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.idrilldown~drill.html[Drill]"]  method of the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  interface.
+When the drill down transitions from parent chart to child chart, it may be necessary to set other properties of the chart (for instance, the title appearing at the top of WinChart). Notification of these drill down transitions can be handled by any object that implements the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.idrilldown~drill.html[Drill]"]  method of the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  interface.
 
 Implement the IDrillDown interface on an object that can change the chart's title to one appropriate for the new child chart.
 
@@ -162,7 +162,7 @@ this.ultraChart1.Drill.DrillElements[0].DrillDown =
 ----
 
 [start=6]
-. Next, provide the user with Drill Back. There are two means of providing drill back functionality. The chart itself can feature a Drill back button that is a small square region displayed in the upper-left corner of the chart area. When the user clicks this button the chart drills back to it's parent. By default this button will not be shown, but this feature can be activated by setting the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~showbutton.html[ShowButton]"]  property on DrillDownAppearance at either design or run-time.
+. Next, provide the user with Drill Back. There are two means of providing drill back functionality. The chart itself can feature a Drill back button that is a small square region displayed in the upper-left corner of the chart area. When the user clicks this button the chart drills back to it's parent. By default this button will not be shown, but this feature can be activated by setting the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~showbutton.html[ShowButton]"]  property on DrillDownAppearance at either design or run-time.
 
 *In Visual Basic:*
 
@@ -195,4 +195,4 @@ if ( this.ultraChart1.Drill.Depth > 0 )
 }
 ----
 
-DrillBack only applies when the drilled level is greater than 0, that is when the user is not at the top-most chart. The read-only  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~depth.html[Depth]"]  property can be used to ascertain the drilled level at any given point in time.
+DrillBack only applies when the drilled level is greater than 0, that is when the user is not at the top-most chart. The read-only  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.drilldownappearance~depth.html[Depth]"]  property can be used to ascertain the drilled level at any given point in time.

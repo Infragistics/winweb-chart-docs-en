@@ -29,4 +29,4 @@ Developers can drill-enable Chart by providing:
 * Child chart type.
 * Data source to be used in presenting the child chart.
 * Identity of row and column of chart element from parent chart that is drillable.
-* An optional callback by implementing the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  interface.
+* An optional callback by implementing the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.idrilldown.html[IDrillDown]"]  interface.

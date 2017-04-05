@@ -14,7 +14,7 @@
 
 = Create Multi-Line Chart Labels
 
-In certain cases you may want to display chart labels over multiple lines. This topic shows how series labels and item label are displayed in separate lines using the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.axisserieslabelappearance~formatstring.html[FormatString]"]  property.
+In certain cases you may want to display chart labels over multiple lines. This topic shows how series labels and item label are displayed in separate lines using the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.axisserieslabelappearance~formatstring.html[FormatString]"]  property.
 
 It is assumed that an ultraChart bound to a data source is dropped onto your form. For information on this please see the link:chart-data-sources.html[Data Sources] topic.
 

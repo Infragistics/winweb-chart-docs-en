@@ -18,7 +18,7 @@ Charts are often required to display sets of data which contain null values. Sin
 
 A common question that is asked when handling null values is: Where on the chart should values be placed when they are null?
 
-For most chart types, the Chart control provides a  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.nullhandling.html[NullHandling]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.nullhandling.html[NullHandling]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.nullhandling.html[NullHandling]"]  property. In the Properties window of the Designer view, the NullHandling property is available under the property that corresponds to the chart type. For example, in the Properties window of the Column chart, the NullHandling property is available under the ColumnChart property.
+For most chart types, the Chart control provides a  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.nullhandling.html[NullHandling]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.nullhandling.html[NullHandling]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.nullhandling.html[NullHandling]"]  property. In the Properties window of the Designer view, the NullHandling property is available under the property that corresponds to the chart type. For example, in the Properties window of the Column chart, the NullHandling property is available under the ColumnChart property.
 
 .Note
 [NOTE]
@@ -36,7 +36,7 @@ The following is a list of the NullHandling values. Each value treats null value
 	interpolatedValue = (precedingValue / 2) + (subsequentValue / 2)
 ----
 
-* NullHandling.InterpolateCustom -- Performs custom interpolation logic at the application level to populate the null values by handling the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.events.interpolatevalueseventargs.html[UltraChart.InterpolateValues]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.events.interpolatevalueseventargs.html[UltraChart.InterpolateValues]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.events.interpolatevalueseventargs.html[UltraChart.InterpolateValues]"]  event. In the above example, this event handler populates null values with the value 120\.
+* NullHandling.InterpolateCustom -- Performs custom interpolation logic at the application level to populate the null values by handling the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.events.interpolatevalueseventargs.html[UltraChart.InterpolateValues]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.events.interpolatevalueseventargs.html[UltraChart.InterpolateValues]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.events.interpolatevalueseventargs.html[UltraChart.InterpolateValues]"]  event. In the above example, this event handler populates null values with the value 120\.
 
 The table below is an example of an Area chart's data set:
 

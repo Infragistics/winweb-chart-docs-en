@@ -14,7 +14,7 @@
 
 = Use the PaintElement's ElementType Property
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.paintelement.html[PaintElement]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.paintelement.html[PaintElement]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.paintelement.html[PaintElement]"]  exposes another property named ElementType that is updated when properties corresponding to solid fills, gradients, hatches or texture images have been assigned.
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.paintelement.html[PaintElement]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.paintelement.html[PaintElement]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.paintelement.html[PaintElement]"]  exposes another property named ElementType that is updated when properties corresponding to solid fills, gradients, hatches or texture images have been assigned.
 
 Sometimes a PaintElement may have values assigned to multiple fill effects, while the developer wants to apply only one of them. Ordinarily, the most recent effect-specific setting takes precedence, but when multiple fills are defined in a PaintElement, the developer should adjust the ElementType property in selecting the active fill.
 

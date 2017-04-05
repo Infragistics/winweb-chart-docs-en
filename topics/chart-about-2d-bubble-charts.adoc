@@ -16,7 +16,7 @@
 
 image::Images/Chart_About_Bubble_Charts_01.png[The icon used to represent this chart type in the ChartType drop-down in Visual Studio's properties window.]
 
-A  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[bubble chart]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[bubble chart]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[bubble Chart]"]  is actually a type of scatter chart. The x and y coordinates of the data marker (the bubble) are determined by two data values. The size of the data marker indicates the value of a third variable.
+A  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[bubble chart]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[bubble chart]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[bubble Chart]"]  is actually a type of scatter chart. The x and y coordinates of the data marker (the bubble) are determined by two data values. The size of the data marker indicates the value of a third variable.
 
 image::Images/Chart_Bubble_Chart_01.png[Sample of what a 2D Bubble Chart can look like.]
 

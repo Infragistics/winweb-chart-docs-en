@@ -14,7 +14,7 @@
 
 = Set the Shape of a Treemap Chart
 
-You can set the  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.treemapchartappearance~treemaptype.html[TreeMapType]"]  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.treemapchartappearance~treemaptype.html[TreeMapType]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.treemapchartappearance~treemaptype.html[TreeMapType]"]  property of Chart to define the shape of the nodes in your treemap chart.
+You can set the  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.treemapchartappearance~treemaptype.html[TreeMapType]"]  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.treemapchartappearance~treemaptype.html[TreeMapType]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.treemapchartappearance~treemaptype.html[TreeMapType]"]  property of Chart to define the shape of the nodes in your treemap chart.
 
 You can set the TreeMapType property to:
 

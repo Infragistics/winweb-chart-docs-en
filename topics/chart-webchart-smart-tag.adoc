@@ -50,11 +50,11 @@ image::images/Chart_The_WebChart_Smart_Tag_01.png[The Smart Tag that displays fo
 
 |Change ChartType
 |Click the drop-down arrow and you will be presented with a graphical representation of the many chart types available to you.
-| pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~charttype.html[ChartType]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~charttype.html[ChartType]"] 
+| pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~charttype.html[ChartType]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~charttype.html[ChartType]"] 
 
 |Choose a Data Source
 |The drop-down list enables you to select which data source you want the WebChart to use. If you do not have a data source configured, select <New data source...>.
-| pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.dataappearance~datasource.html[DataSource]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.dataappearance~datasource.html[DataSource]"] 
+| pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.dataappearance~datasource.html[DataSource]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.dataappearance~datasource.html[DataSource]"] 
 
 |====
 
@@ -64,6 +64,6 @@ image::images/Chart_The_WebChart_Smart_Tag_01.png[The Smart Tag that displays fo
 
 |Axis Margins
 |Click the drop-down arrow and a representation of the x- and y-axes will appear. Drag whichever axis for which you want to change the margin.
-| pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~axis.html[Axis]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~axis.html[Axis]"] 
+| pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~axis.html[Axis]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~axis.html[Axis]"] 
 
 |====

@@ -16,6 +16,6 @@
 
 image::Images/Chart_About_2D_Stacked_Column_Charts_01.png[The icon used to represent this chart type in the ChartType drop-down in Visual Studio's properties window.]
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[2D stacked column charts]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[2D stacked column charts]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[2D stacked column charts]"]  show the relationship of individual items in a series to the whole.
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[2D stacked column charts]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[2D stacked column charts]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[2D stacked column charts]"]  show the relationship of individual items in a series to the whole.
 
 image::Images/Chart_Stack_Column_Chart_01.png[Example of a 2D Stacked Column Chart.]

@@ -16,7 +16,7 @@
 
 image::Images/Chart_About_3D_Bubble_Charts_02.png[The icon used to represent this chart type in the ChartType drop-down in Visual Studio's properties window.]
 
-A  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[3D bubble chart]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[3D bubble chart]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[3D bubble chart]"]  is a type of link:chart-bubble-chart-2d.html[2D bubble chart] that adds another dimension by plotting values in 3D space using X/Y/Z coordinates, plus an extra coordinate for the bubble radius.
+A  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[3D bubble chart]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[3D bubble chart]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[3D bubble chart]"]  is a type of link:chart-bubble-chart-2d.html[2D bubble chart] that adds another dimension by plotting values in 3D space using X/Y/Z coordinates, plus an extra coordinate for the bubble radius.
 
 image::images/Chart_About_3D_Bubble_Charts.png[Example of a 3D Bubble Chart.]
 

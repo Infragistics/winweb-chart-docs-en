@@ -46,7 +46,7 @@ image::images/Chart_The_WinChart_Smart_Tag_01.png[The Smart Tag that displays fo
 
 |Change ChartType
 |Click the drop-down arrow and you will be presented with a graphical representation of the many chart types available to you.
-| pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.win.ultrawinchart.ultrachart~charttype.html[ChartType]"] 
+| pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.win.ultrawinchart.ultrachart~charttype.html[ChartType]"] 
 
 |====
 
@@ -58,6 +58,6 @@ image::images/Chart_The_WinChart_Smart_Tag_01.png[The Smart Tag that displays fo
 
 |Axis Margins
 |Click the drop-down arrow and a representation of the x- and y-axes will appear. Drag whichever axis for which you want to change the margin.
-| pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.win.ultrawinchart.ultrachart~axis.html[Axis]"] 
+| pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.win.ultrawinchart.ultrachart~axis.html[Axis]"] 
 
 |====

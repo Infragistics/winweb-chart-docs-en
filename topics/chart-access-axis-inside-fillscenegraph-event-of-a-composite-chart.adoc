@@ -46,7 +46,7 @@ using Infragistics.UltraChart.Shared.Styles;
 ----
 
 [start=2]
-. Create the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.win.ultrawinchart.ultrachart~fillscenegraph_ev.html[FillSceneGraph]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~fillscenegraph_ev.html[FillSceneGraph]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~fillscenegraph_ev.html[FillSceneGraph]"]  event.
+. Create the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.win.ultrawinchart.ultrachart~fillscenegraph_ev.html[FillSceneGraph]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~fillscenegraph_ev.html[FillSceneGraph]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~fillscenegraph_ev.html[FillSceneGraph]"]  event.
 
 *In Visual Basic:*
 
@@ -105,7 +105,7 @@ IAdvanceAxis y =
 ----
 
 [start=5]
-. Create a  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.primitives.box.html[Box]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.core.primitives.box.html[Box]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.core.primitives.box.html[Box]"]  Primitive and set the following values:
+. Create a  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.primitives.box.html[Box]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.core.primitives.box.html[Box]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.core.primitives.box.html[Box]"]  Primitive and set the following values:
 
 ** Color -- Blue
 ** Width -- 50

@@ -20,94 +20,94 @@ This section lists each namespace that is relevant to the WinChart™ control. W
 |====
 |*WinChart Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.win.ultrawinchart_namespace.html[Infragistics.Win.UltraWinChart]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.win.ultrawinchart_namespace.html[Infragistics.Win.UltraWinChart]"]
 |*KeyClasses:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.win.ultrawinchart.ultrachart.html[UltraChart]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.win.ultrawinchart.ultrachart.html[UltraChart]"]
 
 |*Core Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core_namespace.html[Infragistics.UltraChart.Core]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core_namespace.html[Infragistics.UltraChart.Core]"]
 |*Key Classes and Interface:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.chartcore.html[ChartCore]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.chartcore.html[ChartCore]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.scenegraph.html[SceneGraph]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.scenegraph.html[SceneGraph]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.iadvanceaxis.html[IAdvanceAxis]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.iadvanceaxis.html[IAdvanceAxis]"]
 
 |*Layers Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.layers_namespace.html[Infragistics.UltraChart.Core.Layers]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.layers_namespace.html[Infragistics.UltraChart.Core.Layers]"]
 |*Key Interface:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.layers.ilayer.html[ILayer interface]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.layers.ilayer.html[ILayer interface]"]
 
 |*Primitives Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.primitives_namespace.html[Infragistics.UltraChart.Core.Primitives]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.primitives_namespace.html[Infragistics.UltraChart.Core.Primitives]"]
 |*Key Class:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.primitives.primitive.html[Primitive]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.primitives.primitive.html[Primitive]"]
 
 |*Util Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.util_namespace.html[Infragistics.UltraChart.Core.Util]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.util_namespace.html[Infragistics.UltraChart.Core.Util]"]
 |*Key Classes:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.util.labelformatter.html[LabelFormatter]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.util.labelformatter.html[LabelFormatter]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.core.util.platform.html[Platform]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.core.util.platform.html[Platform]"]
 
 |*Data Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.data_namespace.html[Infragistics.UltraChart.Data]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.data_namespace.html[Infragistics.UltraChart.Data]"]
 |*Key Classes:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.data.demotable.html[DemoTable]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.data.demotable.html[DemoTable]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.data.ganttdatasource.html[GanttDataSource]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.data.ganttdatasource.html[GanttDataSource]"]
 
 |*Resources Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources_namespace.html[Infragistics.UltraChart.Resources]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources_namespace.html[Infragistics.UltraChart.Resources]"]
 |*Key Interfaces:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.ichartcomponent.html[IChartComponent]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.ichartcomponent.html[IChartComponent]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.irenderlabel.html[IRenderLabel]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.irenderlabel.html[IRenderLabel]"]
 
 |*Appearance Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance_namespace.html[Infragistics.UltraChart.Resources.Appearance]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance_namespace.html[Infragistics.UltraChart.Resources.Appearance]"]
 |*Key Classes:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.annotation.html[Annotation]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.annotation.html[Annotation]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.effect.html[Effect]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.effect.html[Effect]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.paintelement.html[PaintElement]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.paintelement.html[PaintElement]"]
 
 |*Events Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.events_namespace.html[Infragistics.UltraChart.Shared.Events]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.events_namespace.html[Infragistics.UltraChart.Shared.Events]"]
 |*Key Classes:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.events.chartdataeventargs.html[ChartDataEventArgs]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.events.chartdataeventargs.html[ChartDataEventArgs]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.events.chartdatainvalideventargs.html[ChartDataInvalidEventArgs]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.events.chartdatainvalideventargs.html[ChartDataInvalidEventArgs]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.events.chartdrawitemeventargs.html[ChartDrawItemEventArgs]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.events.chartdrawitemeventargs.html[ChartDrawItemEventArgs]"]
 
 |*Styles Namespace:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles_namespace.html[Infragistics.UltraChart.Shared.Styles]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles_namespace.html[Infragistics.UltraChart.Shared.Styles]"]
 |*Key Classes and Enumeration:* 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.labelstyle.html[LabelStyle]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.labelstyle.html[LabelStyle]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.linestyle.html[LineStyle]"] 
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.linestyle.html[LineStyle]"] 
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[ChartType Enumeration]"]
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[ChartType Enumeration]"]
 
 |====

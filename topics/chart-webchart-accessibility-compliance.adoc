@@ -21,17 +21,17 @@ All of our ASP.NET controls and components comply with section 508, subpart 1194
 |Rules|How We Comply with the Rules
 
 |(a)
-|By enabling the pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~section508.html[Section508]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.webui.ultrawebchart.ultrachart~section508.html[Section508]"] property, appearance classes that relate to Section 508 can be set, to meet compliance. 
+|By enabling the pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~section508.html[Section508]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.webui.ultrawebchart.ultrachart~section508.html[Section508]"] property, appearance classes that relate to Section 508 can be set, to meet compliance. 
 
 The classes are listed below: 
 
-* pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508webappearance.html[Section508WebAppearance]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508webappearance.html[Section508WebAppearance]"] 
+* pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508webappearance.html[Section508WebAppearance]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508webappearance.html[Section508WebAppearance]"] 
 
-* pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508chartimage.html[Section508ChartImage]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508chartimage.html[Section508ChartImage]"] 
+* pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508chartimage.html[Section508ChartImage]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508chartimage.html[Section508ChartImage]"] 
 
-* pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508chartitems.html[Section508ChartItems]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508chartitems.html[Section508ChartItems]"] 
+* pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508chartitems.html[Section508ChartItems]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508chartitems.html[Section508ChartItems]"] 
 
-* pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508chartmisc.html[Section508ChartMisc]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508chartmisc.html[Section508ChartMisc]"] 
+* pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508chartmisc.html[Section508ChartMisc]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508chartmisc.html[Section508ChartMisc]"] 
 
 .Note 
 
@@ -39,7 +39,7 @@ The classes are listed below:
 
 ==== 
 
-Observe the behavior of the tooltips on the chart when enabling Section 508. If the pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508chartimage~altformatstring.html[AltFormatString]"] pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.section508chartimage~altformatstring.html[AltFormatString]"] property is used, this will produce a secondary tooltip that obscures the original chart tooltip. It is best to use the AltFormatString to display all tooltip information and turn the standard chart tooltip off by setting the Tooltips.Display property to Never for maximum accessibility. 
+Observe the behavior of the tooltips on the chart when enabling Section 508. If the pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508chartimage~altformatstring.html[AltFormatString]"] pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.section508chartimage~altformatstring.html[AltFormatString]"] property is used, this will produce a secondary tooltip that obscures the original chart tooltip. It is best to use the AltFormatString to display all tooltip information and turn the standard chart tooltip off by setting the Tooltips.Display property to Never for maximum accessibility. 
 
 ====
 

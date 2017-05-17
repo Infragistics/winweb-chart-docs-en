@@ -18,6 +18,6 @@ image::Images/Chart_About_ColumnLine_Charts_01.png[The icon used to represent th
 
 A link:chart-column-chart-2d.html[column chart] illustrates comparisons among items or shows data changes over a period of time. Values are organized vertically and data is categorized horizontally. A link:chart-line-chart-2d.html[line chart] shows trends in data at equal intervals.
 
-The  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[column line chart]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[column line chart]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[column line chart]"]  combines both types of charts, showing both categorized proportions and trends.
+The  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[column line chart]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[column line chart]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[column line chart]"]  combines both types of charts, showing both categorized proportions and trends.
 
 image::Images/Chart_Column_Line_Chart_01.png[Example of a Column Line Chart.]

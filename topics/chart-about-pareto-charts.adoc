@@ -16,14 +16,14 @@
 
 image::Images/Chart_About_Pareto_Charts_01.png[The icon used to represent this chart type in the ChartType drop-down in Visual Studio's properties window.]
 
-pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[Pareto charts]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[Pareto charts]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[Pareto charts]"]  are link:chart-column-chart-2d.html[column charts] sorted by value (greatest to smallest), and accompanied by a line which shows the running total as a percentage of the set.
+pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[Pareto charts]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[Pareto charts]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[Pareto charts]"]  are link:chart-column-chart-2d.html[column charts] sorted by value (greatest to smallest), and accompanied by a line which shows the running total as a percentage of the set.
 
 The y-axis shows the data values which correspond to the columns, and the Y2-axis shows the percentage values which correspond to the line.
 
 .Note
 [NOTE]
 ====
-To display the Y2-axis, set the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.axisappearance~visible.html[UltraChart.Axis.Y2.Visible]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.axisappearance~visible.html[UltraChart.Axis.Y2.Visible]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.resources.appearance.axisappearance~visible.html[UltraChart.Axis.Y2.Visible]"]  property to True.
+To display the Y2-axis, set the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.resources.appearance.axisappearance~visible.html[UltraChart.Axis.Y2.Visible]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.axisappearance~visible.html[UltraChart.Axis.Y2.Visible]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.resources.appearance.axisappearance~visible.html[UltraChart.Axis.Y2.Visible]"]  property to True.
 ====
 
 This chart is used in quality control, and is most commonly meant to illustrate the "80/20 rule". For example, "80% of problems can usually be tracked to 20% of sources" or "80% of sales come from 20% of products".

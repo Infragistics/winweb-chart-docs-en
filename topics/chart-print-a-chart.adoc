@@ -14,7 +14,7 @@
 
 = Print a Chart
 
-This topic discusses the  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.win.ultrawinchart.ultrachart~printchart.html[PrintChart]"]  method, which is invoked to print a WinChart™.
+This topic discusses the  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.win.ultrawinchart.ultrachart~printchart.html[PrintChart]"]  method, which is invoked to print a WinChart™.
 
 == Printing a Chart to the Default Windows Printer
 

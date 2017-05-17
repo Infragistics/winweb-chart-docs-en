@@ -20,7 +20,7 @@ A link:chart-scatter-chart.html[scatter chart] is used either to show the relati
 
 A link:chart-line-chart-2d.html[line] chart shows trends in changing data values at equal intervals.
 
-The  pick:[win-forms=" link:infragistics4.win.ultrawinchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[scatter line chart]"]  pick:[asp-net=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[scatter line chart]"]  pick:[aspnet-old=" link:infragistics4.webui.ultrawebchart.v{ProductVersion}~infragistics.ultrachart.shared.styles.charttype.html[scatter line chart]"]  combines both types of charts, showing both individual values and trends.
+The  pick:[win-forms=" link:{ApiPlatform}win.ultrawinchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[scatter line chart]"]  pick:[asp-net=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[scatter line chart]"]  pick:[aspnet-old=" link:{ApiPlatform}webui.ultrawebchart{ApiVersion}~infragistics.ultrachart.shared.styles.charttype.html[scatter line chart]"]  combines both types of charts, showing both individual values and trends.
 
 image::Images/Chart_Scatter_Line_Chart_01.png[Example of a Scatter Line Chart.]
 
